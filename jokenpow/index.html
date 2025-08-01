@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <title>JokenDev</title>
+</head>
+
+<body>
+
+    <div class="regras-wrapper">
+        <button class="button-regras">❓ Regras</button>
+
+        <aside class="manual">
+            <h3>A Batalha Final</h3>
+            <p><strong>O Dev 👨‍💻</strong> bebe o <strong>Café ☕</strong> para ter energia.</p>
+            <p><strong>O Café ☕</strong> dá coragem para mexer no <strong>Código Legado 💣</strong>.</p>
+            <p><strong>O Código Legado 💣</strong> sempre explode na mão do <strong>Dev 👨‍💻</strong>.</p>
+        </aside>
+    </div>
+
+    <main class="container">
+        <h1>JokenDev</h1>
+
+        <section class="buttons">
+            <button id="coffee" onclick="playHuman('coffee')">☕</button>
+            <button id="legacy-code" onclick="playHuman('legacy-code')">💣</button>
+            <button id="developer" onclick="playHuman('developer')">👨‍💻</button>
+        </section>
+
+        <p class="result">Nova Partida!</p>
+        <p class="your-score">Sua Pontuação: <span id="my-score">0</span></p>
+        <p class="machine-score">Pontuação da Alexa: <span id="alexa-score">0</span></p>
+    </main>
+
+    <script src="./script.js"></script>
